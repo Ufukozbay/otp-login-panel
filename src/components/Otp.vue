@@ -170,7 +170,7 @@ export default defineComponent({
               :type="isPwd ? 'password' : 'text'"
             />
           </div>
-          <button @click="remainingTimer" type="submit" class="btn btn-primary">
+          <button @click="remainingTimer" type="submit" class="btn btn-primary mb-3">
             Submit
           </button>
           <div
